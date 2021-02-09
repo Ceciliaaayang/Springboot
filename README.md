@@ -1,10 +1,3 @@
-Table of contents
-* [Introduction](#introduction)
-* [Quick Start](#quick-start)
-* [Architecture](#architecture)
-* [Docker Deployment](#docker-deployment)
-* [Improvements](#improvements)
-
 
  # Introduction  
 This project is a mockup of an online trading platform. The idea was to create a scalable application using microservice architecture and Springboot framework.  
