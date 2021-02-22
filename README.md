@@ -1,8 +1,7 @@
 
  # Introduction  
-This project is a mockup of an online trading platform. The idea was to create a scalable application using microservice architecture and Springboot framework.  
-The application uses the IEX Cloud REST API to obtain ticker information including latest market prices. Once that information is obtained, the application stores it in a Postgresql database. The Postgresql database also maintains records of traders, their accounts, and orders on the platform. When an order is executed, the app handles the appropriate operations on the accounts.  
-  
+Developed an online trading platform using data acquired from a REST API. The application follows a three-tiered microservice architecture, and is built with Spring and Maven providing dependency management. Market data is retrieved from the IEX Cloud REST API and persisted into a PostgreSQL container. Simulated trader accounts and order data are also persisted. JUnit and Mockito were used for integration and unit testing. The application was Dockerized into two separate containers for ease of deployment.
+
 # <a name="#quick-start" />Quick Start
 - Pre-requisites: Docker, CentOS 7, IEX Cloud access  
   
